@@ -2,6 +2,8 @@ body {
   background-color:lavender; 
   color:#fff;
   text-align:center;
+  margin: 60px auto;
+  width: 70%;
 }
 
 nav ul, footer ul {
