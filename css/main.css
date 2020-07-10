@@ -14,7 +14,6 @@
   font-size: 12px;
   letter-spacing: 1.5px;
   padding-left: 14px;
-  width: 100%;
 }
 .header a{
   text-decoration: none;
@@ -51,12 +50,9 @@ li a{
   background: #779282;
   padding: 9px;
   text-decoration: none;
+  color: #FCC1D6;
 }
-a {
-    text-decoration: none;
-    color: #FCC1D6;
 
-}
 li a:hover {
     background: #DE9988;
 }
