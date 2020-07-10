@@ -67,12 +67,12 @@ li a:hover {
 .photo-gallery, .photo-gallery li {
 	list-style: none;
 	padding: 0;
-	margin: 25px;
+	margin: 200px;
 }
 
 .photo-gallery li {
 	display: inline-block;
-	width: 33%;
+	width: 25%;
 }
 
 .photo-gallery li img {
