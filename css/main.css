@@ -16,7 +16,6 @@
   font-size: 12px;
   letter-spacing: 1.5px;
   padding-left: 14px;
-  
 }
 .header a{
   text-decoration: none;
@@ -26,6 +25,7 @@
 
 .text{
   font-weight: lighter;
+
 }
 
 body {
@@ -36,12 +36,13 @@ body {
 }
 
 nav ul, footer ul {
-    width: 60%;
     font-family: 'Bookman';
     list-style: none;
     letter-spacing: 1.5px;
     font-weight: bold;
- 
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
     
 }
 nav ul li, footer ul li {
@@ -59,7 +60,28 @@ li a{
 li a:hover {
     background: #DE9988;
 }
-li a:hover {
+a:hover {
   color: #E3C374;
 }
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
 
+
+
+
+
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
