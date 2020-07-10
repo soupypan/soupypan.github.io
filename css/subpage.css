@@ -1,0 +1,25 @@
+.header {
+  padding: .5px;
+  text-align: left;
+  background: #779282;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  padding-left: 14px;
+}
+.header a{
+  text-decoration: none;
+  color: #f3f0e4; 
+  font-family: 'Helvetica';
+}
+
+.text{
+  position: absolute;
+  top: 24px;
+  left: 52px;
+  font-weight: lighter;
+
+}
+
+body {
+  background-color:#F4F0E4; 
+}
