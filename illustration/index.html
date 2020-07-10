@@ -1,6 +1,15 @@
 ---
 layout: default
 title: illustration
+images:
+- image_path: /assets/illustration/610sketch.png
+title: june 10 sketch
+- image_path: /assets/illustration/nerdyshit.gif
+title: i mc lovin it
+- image_path: /assets/illustration/611sketch.png
+title: june 11 sketch
+- image_path: /assets/illustration/612sketch.png
+title: june 12 sketch
 ---
 
 <div class="header">
@@ -14,7 +23,12 @@ title: illustration
 
 
 
-
-	<ul class="posts">
+<ul class="photo-gallery">
+	<% for image in page.assets %>
+		<li>
+			<img src="{{ image.image_path}}" alt="{{image.title}}">
+		</li>
+	<% endfor%>
   
-	</ul>
+	
+</ul>
