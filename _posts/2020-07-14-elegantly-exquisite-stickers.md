@@ -1,7 +1,7 @@
 ---
 layout: post
 title: elegantly exquisite stickers
-date: 2020-07-13
+date: 2020-07-14
 ---
 
 <h1> Privacy Policy </h1>
