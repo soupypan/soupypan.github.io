@@ -4,7 +4,7 @@ title: elegantly exquisite stickers
 date: 2020-07-13
 ---
 
-Privacy Policy
+<h1> Privacy Policy </h1>
 
 
 Information Collection and Usages 
