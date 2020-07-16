@@ -1,0 +1,27 @@
+---
+layout: default
+title: illustration
+images:
+ - image_path: /assets/illustration/nerdyshit.gif
+---
+
+<div class="header">
+
+<h1><a href="/" >  ← <span class = "text" >
+  soupypan/illustration 
+</span> </a></h1>
+
+
+</div>
+
+
+
+<ul class="photo-gallery">
+	{% for image in page.images %}
+		<li>
+			<img src="{{ image.image_path}}" alt="{{image.title}}">
+		</li>
+	{% endfor %}
+  
+	
+</ul>
