@@ -1,0 +1,26 @@
+---
+layout: default
+title: soupypan's photos
+---
+
+<div class="header">
+
+<h1><a href="/" >  ← <span class = "text" >
+  soupypan/illustration 
+</span> </a></h1>
+
+</div>
+
+<p>
+under construction ･ᴗ･
+</p>
+
+
+<ul class="photo-gallery">
+	{% for image in page.images %}
+		<li>
+			<img src="{{ image.image_path}}" alt="{{image.title}}">
+		</li>
+	{% endfor %}
+  
+</ul>
