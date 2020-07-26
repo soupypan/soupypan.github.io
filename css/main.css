@@ -78,3 +78,19 @@ li a:hover {
 .photo-gallery li img {
 	width: 100%;
 }
+
+
+
+.folder {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 140px;
+}
+.folder img {
+    width: 80px;
+    height: auto;
+}
+.ftitle {
+    display: block;
+}
