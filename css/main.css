@@ -16,6 +16,7 @@
   font-size: 12px;
   letter-spacing: 1.5px;
   padding-left: 14px;
+  cursor: url(https://64.media.tumblr.com/adaabf98949f7a03fb717946815f88e5/d3165a7fc699b53a-2d/s75x75_c1/ad8d1ed7eec21d57c22e64ea8c5d4efa46cb68ac.png), auto;
 }
 .header a{
   text-decoration: none;
@@ -32,7 +33,7 @@ body {
   background-color:#F4F0E4; 
   text-align:center;
   margin: auto;
-  
+  cursor: url(https://64.media.tumblr.com/adaabf98949f7a03fb717946815f88e5/d3165a7fc699b53a-2d/s75x75_c1/ad8d1ed7eec21d57c22e64ea8c5d4efa46cb68ac.png), auto;
 }
 
 nav ul, footer ul {
