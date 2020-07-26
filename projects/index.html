@@ -1,18 +1,19 @@
 ---
 layout: default
-title: projects
+title: nerd
 ---
 <div class="header">
 
 <h1><a href="/" >  ← <span class = "text" >
   soupypan/{{ page.title }} 
 </span> </a></h1>
-
+	
 </div>
 
-	<ul>
 
-	  {% for post in site.posts %}
-	    <li>{{ post.date | date_to_string }} » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+{% for project in site.projects %}
+  <div class="loproject">
+    <h2><img src="{{ project.image_path }}" alt="{{ project.title }}">{{ project.title }}</a></h2>
+    {{ project.content }}
+  </div>
+{% endfor %}
