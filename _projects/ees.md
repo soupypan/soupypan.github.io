@@ -1,4 +1,5 @@
 ---
+layout: project
 title: elegantly exquisite stickers
 image_path: 
 ---
