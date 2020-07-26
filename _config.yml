@@ -1,2 +1,6 @@
 name: soupypan
 markdown: kramdown
+
+collections: 
+  projects:
+    output: true
