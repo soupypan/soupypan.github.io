@@ -188,7 +188,7 @@ li a:hover {
     display: block;
 }
 
-.illpage {
+.projpage {
   font-family: 'Arial';
   font-size: 20px;
   margin-left: 30px;
@@ -198,18 +198,18 @@ li a:hover {
   text-align: left;
 }
 
-.illpage h3{
+.projpage h3{
   text-decoration: underline;
   font-weight: normal;
   margin-bottom: -10px;
 }
 
-.desc {
+.projdesc {
     font-size: 15px;
 }
 
 
-.illimg img {
+.projimg img {
   width: 45vw;
   padding: 14px;
   display: block;
@@ -219,7 +219,7 @@ li a:hover {
   
   
 }
-.illdesc {
+.projbodytxt {
     font-size: 18px;
 	display: block;
 	
