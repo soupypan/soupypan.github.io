@@ -7,7 +7,7 @@ desc: ios stickers made with the lovable ms paint ~ 2020
 
 
 
-<b> Privacy Policy </b>
+<span style="color: blue"> <b> *Privacy Policy* </b> </span>
 
 
 
@@ -21,6 +21,12 @@ elegantly exquisite stickers does not collect or store any of your personal info
 <b> Contact </b>
 
 If you have any questions or suggestions, feel free to contact me at asoftjoe@gmail.com or on Twitter @soupypan
+
+
+
+
+
+
 
 
 [![downloadimg](/assets/miscimages/eesdownload.png){:class = "illimg"}](https://apps.apple.com/us/app/elegantly-exquisite-stickers/id1523558259)
