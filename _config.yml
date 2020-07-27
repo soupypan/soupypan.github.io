@@ -5,6 +5,8 @@ collections:
   projects:
     output: true
   illustrations:
+    output: true
   photographs:
+    output: true
   otherart:
   misc:
