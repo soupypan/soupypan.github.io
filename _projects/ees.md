@@ -1,24 +1,25 @@
 ---
 layout: genpgproject
 title: elegantly exquisite stickers
-desc: cool stuff man
+desc: stickers made with the lovable ms paint, 2020
 image_path: 
 ---
 
 much very good high quality sticker
 
+![a-test](/assets/illustration/610sketch.png){:class = "illimg"}
 
-<h1> Privacy Policy </h1>
+<b> Privacy Policy </b>
 
 
 
-<h2> Information Collection and Usages </h2>
+<b> Information Collection and Usages </b>
 
 Your privacy is important.
 elegantly exquisite stickers does not collect or store any of your personal information. It's simply just a sticker pack.
 
 
 
-<h2> Contact </h2>
+<b> Contact </b>
 
 If you have any questions or suggestions, feel free to contact me at asoftjoe@gmail.com or on Twitter @soupypan
