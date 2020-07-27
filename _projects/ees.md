@@ -1,6 +1,7 @@
 ---
-layout: project
+layout: genpgproject
 title: elegantly exquisite stickers
+desc: cool stuff man
 image_path: 
 ---
 
