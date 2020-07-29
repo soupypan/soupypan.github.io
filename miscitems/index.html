@@ -1,0 +1,32 @@
+---
+layout: about
+title: cool stuff bro
+---
+
+<div class="subheader">
+<h1><a href="/" > ←  back </a></h1>
+</div>
+
+<body>
+
+<div class="noise">
+<h1 id="title1"> welcome to a <sub>not really</sub> secret place</h1>
+<br><br><br><br>
+<h1 id="title2"> below is just a collection of miscellaneous items!! <br><br><sub> essentially it's just whatever that don't fit into other catagories</sub> </h1>
+<br><br>
+<h1 id="title3"> enjoy! ↓  </h1>
+<br><br>
+
+<div class="wrapper">
+<h1 id="title4"> click around >:&#41;  </h1>
+
+<ul class="sqphotogrid">
+{% for item in site.miscitems %}
+<li><div class="indimg"> <a href="{{item.url}}"><img src="{{item.cover}}"></a></div></li>
+{% endfor %}
+</ul>
+
+</div>
+
+
+</body>
