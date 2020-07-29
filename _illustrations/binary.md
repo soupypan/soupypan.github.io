@@ -1,7 +1,7 @@
 ---
 layout: genpgart
 title: binary
-cover: /assets/illustration/binary_cover.gif
+image_path: /assets/illustration/binary_cover.gif
 ---
 
 ![downloadimg](/assets/illustration/binary_1.png){:class = "genpagephoto"}
