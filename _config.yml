@@ -9,5 +9,5 @@ collections:
   photographs:
     output: true
   otherart:
-  misc:
+  miscitems:
     output: true
