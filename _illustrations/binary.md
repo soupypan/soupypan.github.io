@@ -1,5 +1,6 @@
 ---
 layout: genpgart
+type: illustration
 title: binary
 index: 0
 post_cover: /assets/illustration/binary_cover.gif
