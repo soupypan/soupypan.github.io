@@ -193,31 +193,23 @@ li a:hover {
   margin-right: 25px;
 }
 
+.artpage img{
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80vw;
+}
+
+
 .genpagephoto{
+  background: black;
   margin-left:25px;
   margin-right:25px;
-  margin-top: 10px;
-  /*color box*/
-  /*
-  background: black;
-  padding: 20px;*/
-  
 }
 
-.genpagephoto { 
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  align-items: center;
-  grid-gap: 20px;
-
-  }
-  
-  .genpagephoto img {
-  max-width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 
 
