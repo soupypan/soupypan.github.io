@@ -1,5 +1,5 @@
 ---
-layout: genpgart
+layout: genpgartalt
 type: photography
 title: huriefjklbf
 post_cover: https://64.media.tumblr.com/554f09aaccf83fb8379ba8c23aaff8f8/9a0aa0d642214121-a1/s640x960/50d8228dffc2c9a17a3e80cd9b57f769fdbe04bc.jpg
