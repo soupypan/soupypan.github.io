@@ -1,53 +1,12 @@
 ---
 layout: genpgproject
-title: nyujktutyfregtyuiukjhgfdaswwerydfgsfdgdsgsefgsgeregfdczxvgvbsdfgsvcbx
+title: why is this behavinglikethis
 desc: smth
 index: 1
 ---
-
-newcss
-rteghuirjfghjsd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-woAH
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-keep go
+so idk why
+this
+spacing
+is
+terrible 
+pls cooperate im going to sob 
