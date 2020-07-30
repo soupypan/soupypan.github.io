@@ -4,27 +4,16 @@ layout: default
 
 <div class="header">
   
-<h1><a href="/projects" >← <span class = "text" >
-  soupypan/{{ page.title }} 
-</span> </a></h1>
-
- </div>
+<div class="subheader"><h1><a href="/projects" > ←  back </a></h1></div>
  
 
 
 <div class = "projpage">
-<h3>
-{{page.title}}
-</h3>
+<h3>{{page.title}}</h3>
   
-<span class="projdesc">
- <p>{{page.desc}}</p> 
-</span>
+<div class="projdesc">{{page.desc}}</span>
+  
+<div class ="projbodytxt"> {{content}} </div>
 
-<div class = "projimg">
-<span class = "projbodytxt">
-{{content}}
-</span>
-</div>
 
 </div>
