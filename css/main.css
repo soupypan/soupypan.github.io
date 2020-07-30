@@ -200,7 +200,7 @@ li a:hover {
   position: relative;
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 65vw;
+
 }
 
 
@@ -209,6 +209,13 @@ li a:hover {
   margin-left:25px;
   margin-right:25px;
 }
+
+.genpagephoto img{
+  max-width: 65%;
+  height: auto;
+  /*max-height: 90vh;*/
+}
+
 
 
 
