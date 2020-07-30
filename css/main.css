@@ -108,6 +108,9 @@ li a:hover {
 /* nav bars for sub pages*/
 
 .header {
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
   padding: .5px;
   text-align: left;
   background: #779282;
@@ -131,6 +134,8 @@ li a:hover {
 }
 
 .subheader{
+    position: fixed;
+    z-index: 100;
     text-align: left;
     margin: 10px;
     font-family: 'Helvetica', 'Arial';
@@ -224,7 +229,7 @@ li a:hover {
 .centergrid{
   margin-left:25px;
   margin-right:25px;
-  margin-top: 10px;
+  margin-top: 80px;
  
 }
 
