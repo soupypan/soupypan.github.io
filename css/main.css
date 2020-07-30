@@ -263,6 +263,7 @@ li a:hover {
 .projectfolderwrapper {
   padding:3px;
   background: pink;
+  height: 100%;
 }
 
 .folder {
