@@ -2,12 +2,13 @@
 layout: genpgproject
 title: elegantly exquisite stickers
 desc: ios stickers made with the lovable ms paint ~ 2020
+index: 0
 ---
 
 
 
 
-<span style="color: blue"> <b> *Privacy Policy* </b> </span>
+<span style="color: red"> <b> *Privacy Policy* </b> </span>
 
 
 
