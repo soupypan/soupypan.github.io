@@ -7,9 +7,10 @@ title: soupypan's illustrations
 
 
 
+{% assign sorted_illustrations = site.illustrations | sort: 'index'}
 <div class="centergrid">
 	
-{% for illustration in site.illustrations %}
+{% for illustration in sorted_illustrations %}
 	<div class="individualimg">
 	<a href="{{ illustration.url }}"> <img src="{{ illustration.post_cover }}" alt="illustration cover" /></a>  
 	</div>
