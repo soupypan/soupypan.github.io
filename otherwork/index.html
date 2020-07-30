@@ -1,0 +1,20 @@
+---
+layout: about
+title: soupypan's other art
+---
+
+<div class="header"><h1><a href="/" >  ← soupypan/otherartwork </a></h1></div>
+
+
+
+{% assign sorted = site.otherart | sort: 'index' | reverse %}
+<div class="centergrid">
+	
+{% for image in sorted %}
+	<div class="individualimg">
+	<a href="{{ image.url }}"> <img src="{{ image.image_path }}" alt="art🎨broken" /></a>  
+	</div>
+	
+{% endfor %}
+
+</div>
