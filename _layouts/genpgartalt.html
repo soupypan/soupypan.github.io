@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="subheader"><h1><a href="/{{page.type}}" > ←  back </a></h1></div>
+
+<div class="artpage">
+<h3>{{page.title}}</h3>
+  
+<ul class="sqphotogrid">
+{% for illustration in page.images %}
+    <li><img src="{{ illustration.image_path }}" alt="artbroken🥛" /></li>
+{% endfor %}
+</ul>
+
+<p> {{content}} </p>
+
+</div>
