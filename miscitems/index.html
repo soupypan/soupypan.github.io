@@ -3,10 +3,11 @@ layout: about
 title: cool stuff bro
 ---
 
+{% assign sorted = site.miscitems | sort: 'index' | reverse %}
+
 <div class="subheader">
 <h1><a href="/" > ←  back </a></h1>
 </div>
-
 <body>
 
 <div class="noise">
@@ -21,7 +22,7 @@ title: cool stuff bro
 <h1 id="title4"> click around >:&#41;  </h1>
 
 <ul class="sqphotogrid">
-{% for item in site.miscitems %}
+{% for item in sorted %}
 <li><div class="indimg"> <a href="{{ item.url }}"><img src="{{ item.cover }}"></a></div></li>
 {% endfor %}
 </ul>
