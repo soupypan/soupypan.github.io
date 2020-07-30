@@ -1,6 +1,6 @@
 ---
 layout: genpgproject
-title: elegantly exquisite stickers
+title: elegantly_exquisite_stickers
 desc: ios stickers made with the lovable ms paint ~ 2020
 index: 0
 ---
