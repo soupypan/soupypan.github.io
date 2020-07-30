@@ -1,6 +1,7 @@
 ---
 layout: genpgart
 title: binary
+index: 0
 post_cover: /assets/illustration/binary_cover.gif
 images: 
   - image_path: /assets/illustration/binary_1.png
