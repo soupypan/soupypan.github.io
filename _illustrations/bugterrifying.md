@@ -1,6 +1,7 @@
 ---
 layout: genpgart
 title: bugs are terrifying
+index: 1
 post_cover: /assets/illustration/c_bugterrifying.png
 images: 
   - image_path: /assets/illustration/c_bugterrifying.png
