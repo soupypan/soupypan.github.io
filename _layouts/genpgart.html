@@ -6,7 +6,12 @@ layout: default
 
 <div class="artpage">
 <h3>{{page.title}}</h3>
-
+  
+<div class="genpagephoto">
+{% for illustration in page.images %}
+    <img src="{{ illustration.image_path }}" alt="illustration" /></a>  
+{% endfor %}
+  </div>
 
 <p> {{content}} </p>
 
