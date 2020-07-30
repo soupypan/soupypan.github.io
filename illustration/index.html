@@ -7,7 +7,7 @@ title: soupypan's illustrations
 
 
 
-{% assign sorted_illustrations = site.illustrations | sort: 'index'}
+{% assign sorted_illustrations = site.illustrations | sort: 'index' | reverse %}
 <div class="centergrid">
 	
 {% for illustration in sorted_illustrations %}
