@@ -1,18 +1,16 @@
 ---
 layout: default
-title: soupypan's photos
+title: soupypan's photos ･ᴗ･
 ---
 
 <div class="header"><h1><a href="/" >  ← soupypan/photography</a></h1></div>
+ 
 
-<p>
-under construction ･ᴗ･
-</p>
-
+{% assign sorted_photographs = site.photographs | sort: 'index' | reverse %}
 
 <div class="centergrid">
 	
-{% for photo in site.photographs %}
+{% for photo in sorted_photographs %}
 	<div class="individualimg">
 	<a href="{{ photo.url }}"> <img src="{{ photo.post_cover }}" alt="photosupposedtobeheresmh" /></a>  
 	</div>
