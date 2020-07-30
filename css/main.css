@@ -207,12 +207,13 @@ li a:hover {
 .genpagephoto{
   margin-left:25px;
   margin-right:25px;
+  display: flex;
+  flex-direction: column;
 }
 
 .genpagephoto img{
   max-width: 65%;
   height: auto;
-  /*max-height: 90vh;*/
 }
 
 
