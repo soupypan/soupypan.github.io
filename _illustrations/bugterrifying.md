@@ -1,5 +1,6 @@
 ---
-layout: genpgart
+layout: genpgphoto
+type: illustration
 title: bugs are terrifying
 index: 1
 post_cover: /assets/illustration/c_bugterrifying.png
