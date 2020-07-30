@@ -2,6 +2,9 @@
 layout: genpgart
 title: binary
 post_cover: /assets/illustration/binary_cover.gif
+images: 
+  - image_path: /assets/illustration/binary_1.png
+  - image_path: /assets/illustration/binary_0.png
 ---
 
 ![downloadimg](/assets/illustration/binary_1.png){:class = "artpage"}
