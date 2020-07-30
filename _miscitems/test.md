@@ -2,7 +2,7 @@
 layout: genpgmisc
 title: test
 cover: /assets/miscimages/pengoo.png
-date: 4/20 im funny
+smallnote: g9erhhimFUNNY
 ---
 
 <h2>this is big scary title</h2>
