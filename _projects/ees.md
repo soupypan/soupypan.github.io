@@ -21,7 +21,7 @@ elegantly exquisite stickers does not collect or store any of your personal info
 
 <b> Contact </b>
 
-If you have any questions or suggestions, feel free to contact me at asoftjoe@gmail.com or on Twitter @soupypan
+If you have any questions or suggestions, feel free to contact me at soupypan@gmail.com or on Twitter @soupypan
 
 
 
