@@ -26,12 +26,16 @@ p {
   font-size: 12px;
   letter-spacing: 1.5px;
   padding-left: 14px;
+  font-family: 'Helvetica';
   
 }
 .header a{
   text-decoration: none;
   color: #FFF633; 
-  font-family: 'Helvetica';
+  cursor: url(https://64.media.tumblr.com/6722b3c4ffb2b906406df8999aad50af/ef5087adc8713fac-a7/s75x75_c1/64c0d92f3bb3c8d312eafadb32987900b688ad19.png), auto;
+}
+.header a:hover{
+  color: #8CEB42; 
   cursor: url(https://64.media.tumblr.com/6722b3c4ffb2b906406df8999aad50af/ef5087adc8713fac-a7/s75x75_c1/64c0d92f3bb3c8d312eafadb32987900b688ad19.png), auto;
 }
 
