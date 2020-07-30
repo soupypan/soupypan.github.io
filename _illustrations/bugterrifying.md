@@ -1,5 +1,5 @@
 ---
-layout: genpgphoto
+layout: genpgart
 type: illustration
 title: bugs are terrifying
 index: 1
