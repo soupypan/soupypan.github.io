@@ -17,4 +17,4 @@ images:
 
 reminds me of those scratch board things you drew with a little wooden stick; i’m not really sure what they’re called. :P
 
-'this is for testing loop'
+'without imagepath'
