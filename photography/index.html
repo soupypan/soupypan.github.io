@@ -3,13 +3,7 @@ layout: default
 title: soupypan's photos
 ---
 
-<div class="header">
-
-<h1><a href="/" >  ← <span class = "text" >
-  soupypan/illustration 
-</span> </a></h1>
-
-</div>
+<div class="header"><h1><a href="/" >  ← soupypan/photography</a></h1></div>
 
 <p>
 under construction ･ᴗ･
@@ -24,3 +18,14 @@ under construction ･ᴗ･
 	{% endfor %}
   
 </ul>
+
+<div class="centergrid">
+	
+{% for photo in site.photographs %}
+	<div class="individualimg">
+	<a href="{{ photo.url }}"> <img src="{{ photo.post_cover }}" alt="photosupposedtobeheresmh" /></a>  
+	</div>
+	
+{% endfor %}
+
+</div>
