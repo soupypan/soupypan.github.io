@@ -4,7 +4,8 @@ title: test
 cover: /assets/miscimages/pengoo.png
 date: 4/20 im funny
 ---
-<h2> TEstING THE tITLE </h2>
+
+<h2>this is big scary title</h2>
 
 this is body text 
 
@@ -17,3 +18,9 @@ more body text
 <h2> bIG SCARY TEXT </h2>
 
 k cool doone
+wioAHAHAHAH
+
+hahahhahahahahhahahaahhahahaha
+yayayayyayayyayaya
+
+(☞ﾟヮﾟ)☞ ☜(ﾟヮﾟ☜)
