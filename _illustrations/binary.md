@@ -2,6 +2,7 @@
 layout: genpgart
 type: illustration
 title: binary
+subtitle: 2020
 index: 0
 post_cover: /assets/illustration/binary_cover.gif
 images: 
