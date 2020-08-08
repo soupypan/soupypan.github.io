@@ -187,6 +187,12 @@ li a:hover {
   font-style: oblique;
 }
 
+.artpage h2{
+  font-size: 17px;
+  font-weight: lighter; 
+  margin: -20px;
+}
+
 .artpage p{
   text-align: left;
   margin-left: 25px;
