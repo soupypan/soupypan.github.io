@@ -224,6 +224,17 @@ li a:hover {
 }
 
 
+.photographcollage {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;	
+}
+
+
+.photographcollage img{
+  max-width: 100%;
+}
 
 
 
