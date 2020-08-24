@@ -1,4 +1,5 @@
 ---
+index: 2
 layout: genpgartalt
 type: photography
 title: huriefjklbf
