@@ -1,4 +1,5 @@
 ---
+index: 0
 layout: genpgphoto
 type: photography
 title: golden 
