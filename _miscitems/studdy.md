@@ -6,7 +6,7 @@ smallnote: aug 2020
 index: 0
 ---
 
-<h2>studdy! the app that i made in 2 weeks, just because</h2>
+<h2>**studdy! the app that i made in 2 weeks, just because**</h2>
 
 
 So I made an app in two weeks during October of 2019 because I found a random competition and I was bored. Armed with knowledge from two whole elective computer science classes, I decided why not. 
@@ -52,6 +52,8 @@ Okay, enough rambling. Let’s actually get onto the thing I made because that�
 
 here’s what you see when the app opens.
 
+
+
 ![appopen](/assets/miscimages/studdyimg/studdy2.gif){:class = "blogpage"}
 
 plants.
@@ -59,9 +61,11 @@ plants.
 <small> the font was custom made by yours truly. glad my handwriting became useful for once. </small>
 
 
+
 ![appopen](/assets/miscimages/studdyimg/studdy3.gif){:class = "blogpage"}
 
 buy stuff because you already had coins there from a year ago.
+
 
 
 ![appopen](/assets/miscimages/studdyimg/studdy4.gif){:class = "blogpage"}
@@ -72,9 +76,11 @@ tap on alarm clock to track how long you studied for.
 <small>try to ignore the fact that i can’t draw any poses!!!</small>
 
 
+
 ![appopen](/assets/miscimages/studdyimg/studdy5.gif){:class = "blogpage"}
 
 profit.
+
 
 
 ![appopen](/assets/miscimages/studdyimg/studdy6.gif){:class = "blogpage"}
@@ -83,7 +89,9 @@ plants won't be lost to the void!
 
 
 
-<h2>actual process that went into making this thing work, sort of</h2>
+
+<h2>**actual process that went into making this thing work, sort of**</h2>
+
 
 
 
@@ -101,6 +109,7 @@ Honestly, I can't really explain the actual process and the obstacles I encounte
 - When the user buys an item, it’s appended to a global objects array. This array, and the variable that contains the amount of coins the user possesses, is stored in UserDefaults. Because these values doesn’t require much data, UserDefaults is suitable to make sure the data is persistent when the app is killed. Don’t want innocent plants to get lost in some abyss.
 
 ```swift
+
 	let defaults = UserDefaults.standard
         
         let currentCoinAmt = defaults.integer(forKey: "totalCoins") ?? 0
@@ -116,6 +125,7 @@ Honestly, I can't really explain the actual process and the obstacles I encounte
 - When the app is launched again, it sets the user’s inventory equal to what’s stored in UserDefaults. It initializes only the plants that were appended to the objects array (when they're bought) because, well, that’s all that should be available to the user. 
 
 ```swift
+
 	for plantName in boughtItems {
          	let item: plantObject? = plantDict[plantName]
          	let plant = showingBoughtPlants(imgname: item?.plantImgName ?? "", posx: item?.plantPosX ?? 0, posy: item?.plantPosY ?? 0, scale: item?.plantScale ?? 0, zpos: item?.plantZPos ?? 0)
@@ -126,7 +136,9 @@ Honestly, I can't really explain the actual process and the obstacles I encounte
 
 
 
-<h2>concluding thoughts</h2>
+
+<h2>**concluding thoughts**</h2>
+
 
 
 
