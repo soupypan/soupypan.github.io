@@ -100,7 +100,7 @@ Honestly, I can't really explain the actual process and the obstacles I encounte
 - Every time the timer updates, the variable that stores time accumulates. Then, I just did some ~~second grade~~ math which uses that time variable to convert the time studied into coins based on a set ratio (e.g. for every 10 minutes, you earn 5 of coins).
 - When the user buys an item, it’s appended to a global objects array. This array, and the variable that contains the amount of coins the user possesses, is stored in UserDefaults. Because these values doesn’t require much data, UserDefaults is suitable to make sure the data is persistent when the app is killed. Don’t want innocent plants to get lost in some abyss.
 
-```
+``` swift
 	let defaults = UserDefaults.standard
         
         let currentCoinAmt = defaults.integer(forKey: "totalCoins") ?? 0
@@ -115,7 +115,7 @@ Honestly, I can't really explain the actual process and the obstacles I encounte
 ```
 - When the app is launched again, it sets the user’s inventory equal to what’s stored in UserDefaults. It initializes only the plants that were appended to the objects array (when they're bought) because, well, that’s all that should be available to the user. 
 
-```
+``` swift
 	for plantName in boughtItems {
          	let item: plantObject? = plantDict[plantName]
          	let plant = showingBoughtPlants(imgname: item?.plantImgName ?? "", posx: item?.plantPosX ?? 0, posy: item?.plantPosY ?? 0, scale: item?.plantScale ?? 0, zpos: item?.plantZPos ?? 0)
