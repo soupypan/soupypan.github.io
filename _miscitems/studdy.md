@@ -90,7 +90,7 @@ plants won't be lost to the void!
 
 
 
-<h2>**actual process that went into making this thing work, sort of**</h2>
+<h2>actual process that went into making this thing work, sort of</h2>
 
 
 
@@ -109,26 +109,25 @@ Honestly, I can't really explain the actual process and the obstacles I encounte
 - When the user buys an item, it’s appended to a global objects array. This array, and the variable that contains the amount of coins the user possesses, is stored in UserDefaults. Because these values doesn’t require much data, UserDefaults is suitable to make sure the data is persistent when the app is killed. Don’t want innocent plants to get lost in some abyss.
 
 ```swift
+	let defaults = UserDefaults.standard
 
-let defaults = UserDefaults.standard
-        
-let currentCoinAmt = defaults.integer(forKey: "totalCoins") ?? 0
-coinAmt = currentCoinAmt
-        
-        
-let currentInv = defaults.array(forKey: "userInv")
-        
-if currentInv != nil {
-	boughtItems = currentInv as! [String]
-}
+	let currentCoinAmt = defaults.integer(forKey: "totalCoins") ?? 0
+	coinAmt = currentCoinAmt
+
+
+	let currentInv = defaults.array(forKey: "userInv")
+
+	if currentInv != nil {
+		boughtItems = currentInv as! [String]
+	}
 ```
 - When the app is launched again, it sets the user’s inventory equal to what’s stored in UserDefaults. It initializes only the plants that were appended to the objects array (when they're bought) because, well, that’s all that should be available to the user. 
 
 ```swift
-for plantName in boughtItems {
-	let item: plantObject? = plantDict[plantName]
-        let plant = showingBoughtPlants(imgname: item?.plantImgName ?? "", posx: item?.plantPosX ?? 0, posy: item?.plantPosY ?? 0, scale: item?.plantScale ?? 0, zpos: item?.plantZPos ?? 0)
-        addChild(plant)
+	for plantName in boughtItems {
+		let item: plantObject? = plantDict[plantName]
+		let plant = showingBoughtPlants(imgname: item?.plantImgName ?? "", posx: item?.plantPosX ?? 0, posy: item?.plantPosY ?? 0, scale: item?.plantScale ?? 0, zpos: item?.plantZPos ?? 0)
+		addChild(plant)
 	}
 ```
 - If I recall correctly, registering touches ~~gave me a massive headache~~ posed some difficulties. It’s a function so the UI reacts to perform what it’s supposed to. Like when a button (it's actually an image) contains a touch from the user, it does stuff.
@@ -137,8 +136,6 @@ for plantName in boughtItems {
 
 <br>
 <h2>concluding thoughts</h2>
-<br>
-
 
 What would I have improved? Pretty much everything. 
 
