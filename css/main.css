@@ -393,8 +393,8 @@ li a:hover {
 }
 
 .blogpage img{
-  width: auto;
-  height: 80vh;
+  width: 35vw;
+  height: auto;
   margin-top: 10px;
 }
 
@@ -402,7 +402,7 @@ li a:hover {
   background: #b09a6b;
 }
 
-.blogpage li p{
+.blogpage li {
   font-size: 16px;
   font-weight: 400;
   color: white;
