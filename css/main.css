@@ -393,11 +393,17 @@ li a:hover {
 }
 
 .blogpage img{
-  width: 45vw;
-  height: auto;
+  width: auto;
+  height: 80vh;
   margin-top: 10px;
 }
 
 .bloghighlight{
   background: #b09a6b;
+}
+
+.blogpage li p{
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
 }
