@@ -6,7 +6,7 @@ smallnote: aug 2020
 index: 0
 ---
 
-<h2>**studdy! the app that i made in 2 weeks, just because**</h2>
+<h2>studdy! the app that i made in 2 weeks, just because</h2>
 
 
 So I made an app in two weeks during October of 2019 because I found a random competition and I was bored. Armed with knowledge from two whole elective computer science classes, I decided why not. 
@@ -110,36 +110,34 @@ Honestly, I can't really explain the actual process and the obstacles I encounte
 
 ```swift
 
-	let defaults = UserDefaults.standard
+let defaults = UserDefaults.standard
         
-        let currentCoinAmt = defaults.integer(forKey: "totalCoins") ?? 0
-        coinAmt = currentCoinAmt
+let currentCoinAmt = defaults.integer(forKey: "totalCoins") ?? 0
+coinAmt = currentCoinAmt
         
         
-        let currentInv = defaults.array(forKey: "userInv")
+let currentInv = defaults.array(forKey: "userInv")
         
-        if currentInv != nil {
-            boughtItems = currentInv as! [String]
-        }
+if currentInv != nil {
+	boughtItems = currentInv as! [String]
+}
 ```
 - When the app is launched again, it sets the user’s inventory equal to what’s stored in UserDefaults. It initializes only the plants that were appended to the objects array (when they're bought) because, well, that’s all that should be available to the user. 
 
 ```swift
-
-	for plantName in boughtItems {
-         	let item: plantObject? = plantDict[plantName]
-         	let plant = showingBoughtPlants(imgname: item?.plantImgName ?? "", posx: item?.plantPosX ?? 0, posy: item?.plantPosY ?? 0, scale: item?.plantScale ?? 0, zpos: item?.plantZPos ?? 0)
-        	 addChild(plant)
+for plantName in boughtItems {
+	let item: plantObject? = plantDict[plantName]
+        let plant = showingBoughtPlants(imgname: item?.plantImgName ?? "", posx: item?.plantPosX ?? 0, posy: item?.plantPosY ?? 0, scale: item?.plantScale ?? 0, zpos: item?.plantZPos ?? 0)
+        addChild(plant)
 	}
 ```
 - If I recall correctly, registering touches ~~gave me a massive headache~~ posed some difficulties. It’s a function so the UI reacts to perform what it’s supposed to. Like when a button (it's actually an image) contains a touch from the user, it does stuff.
 
 
 
-
-<h2>**concluding thoughts**</h2>
-
-
+<br>
+<h2>concluding thoughts</h2>
+<br>
 
 
 What would I have improved? Pretty much everything. 
