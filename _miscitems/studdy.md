@@ -109,17 +109,17 @@ Honestly, I can't really explain the actual process and the obstacles I encounte
 - When the user buys an item, it’s appended to a global objects array. This array, and the variable that contains the amount of coins the user possesses, is stored in UserDefaults. Because these values doesn’t require much data, UserDefaults is suitable to make sure the data is persistent when the app is killed. Don’t want innocent plants to get lost in some abyss.
 
 ```swift
-	let defaults = UserDefaults.standard
+    let defaults = UserDefaults.standard
 
-	let currentCoinAmt = defaults.integer(forKey: "totalCoins") ?? 0
-	coinAmt = currentCoinAmt
+    let currentCoinAmt = defaults.integer(forKey: "totalCoins") ?? 0
+    coinAmt = currentCoinAmt
 
 
-	let currentInv = defaults.array(forKey: "userInv")
-
-	if currentInv != nil {
-		boughtItems = currentInv as! [String]
-	}
+    let currentInv = defaults.array(forKey: "userInv")
+    
+    if currentInv != nil {
+    boughtItems = currentInv as! [String]
+    }
 ```
 
 - When the app is launched again, it sets the user’s inventory equal to what’s stored in UserDefaults. It initializes only the plants that were appended to the objects array (when they're bought) because, well, that’s all that should be available to the user. 
