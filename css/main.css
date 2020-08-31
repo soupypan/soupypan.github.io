@@ -409,7 +409,9 @@ li a:hover {
 }
 
 pre {
-    white-space: pre-wrap;      
+    white-space: pre-wrap; 
+    margin-left: 40px;
+    margin-right: 40px;
 }
 pre code {
   display: block;
