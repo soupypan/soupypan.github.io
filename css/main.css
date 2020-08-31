@@ -410,8 +410,8 @@ li a:hover {
 
 pre {
     white-space: pre-wrap; 
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 pre code {
   display: block;
