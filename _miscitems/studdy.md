@@ -21,7 +21,7 @@ I found this competition during my vacation on the opposite side of the country,
 However, when school started, work and studying unsurprisingly followed. While adjusting to the new year, I kept trying to think of ideas any time I wasn’t trying to shove kinematics concepts and rhetorical analysis into my brain. Unfortunately, any semblance of creativity perished after the first month of my junior year. 
 
 
-That’s how I ended up with an app idea related to school…
+That's how an app idea related to school came to fruition...
 
 
 I figured that maintaining focus was difficult for me so I wanted (more accurately, needed) to keep myself accountable. Hence, studdy, the mashup of the words “study” and “buddy,” became a thing because what's better than instant gratification!
@@ -139,7 +139,6 @@ Honestly, I can't really explain the actual process and the obstacles I encounte
 <h2>concluding thoughts</h2>
 
 What would I have improved? Pretty much everything. 
-
 <small>Besides my little plants (I love my plants alright). And probably most of the shop menu graphics (kind of proud of that too). </small>
 
 
