@@ -407,10 +407,6 @@ li a:hover {
   font-weight: 400;
   color: white;
 }
-pre code {
-  display: block;
-  background-color: #eeeeee;
-  border: 1px solid #999;
-  padding: 15px;
-	word-wrap: break-word;
+code {
+  color: pink;
 }
