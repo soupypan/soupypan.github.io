@@ -407,3 +407,8 @@ li a:hover {
   font-weight: 400;
   color: white;
 }
+pre code {
+  background-color: #eeeeee;
+  display: block;
+  padding: 15px;
+}
