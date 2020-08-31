@@ -34,7 +34,6 @@ When I began programming, I was, as expected, lost. But after learning some basi
 
 
 
-![notes](/assets/miscimages/studdyimg/studdycr2.jpg){:class = "blogpage"}
 ![morenotes](/assets/miscimages/studdyimg/studdycr1.jpg){:class = "blogpage"}
 
 <small>Let’s take a moment to appreciate my culture and religions notes. </small>
