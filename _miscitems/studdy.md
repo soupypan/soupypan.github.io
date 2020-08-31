@@ -147,7 +147,7 @@ What would I have improved? Pretty much everything.
 - Adding inventory functionality where you can store plants (I originally had this but I couldn’t get it to work properly)
 - Adding the ability for users to modify the location of the plants
 - I also wanted relaxing music (lofi hip-hop) to play while the studying session was running, but then I realized I don’t know music…also ~~it was really not a necessity anyways~~ I ran out of time 
-- **And most of all:** code structure, organization, and efficiency. So basically, the whole entire app! The code's pretty crude…but hey, that's part of <span style="color: yellow"> *learning* </span>, am I right? \*nervous chuckle\* 
+- **And most of all:** code structure, organization, and efficiency. So basically, the whole entire app! The code's pretty crude…but hey, that's part of <span style="color: yellow"> *learning*</span>, am I right? \*nervous chuckle\* 
 
 
 
