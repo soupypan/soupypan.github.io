@@ -100,7 +100,7 @@ Originally, I thought this idea was simple enought because…well, I mean, it’
 <small>xcode yelled at me a lot</small>
 
 
-Honestly, I can't really explain the actual process and the obstacles I encountered while making this because I don't remember, so I guess I’ll explain some of the code that's behind this app!
+Honestly, I can't really explain the actual process and the obstacles I encountered while making this because I don't remember it, so I guess I’ll explain some of the code that's behind this app!
 
 <small>It’s currently 2 AM when I'm writing this so please excuse any poor explanations.</small>
 
