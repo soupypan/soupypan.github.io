@@ -3,6 +3,7 @@ layout: genpgmisc
 title: test
 cover: /assets/miscimages/pengoo.png
 smallnote: g9erhhimFUNNY
+index: 1
 ---
 
 <h2>this is big scary title</h2>
