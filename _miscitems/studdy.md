@@ -108,7 +108,7 @@ Honestly, I can't really explain the actual process and the obstacles I encounte
 - Every time the timer updates, the variable that stores time accumulates. Then, I just did some ~~second grade~~ math which uses that time variable to convert the time studied into coins based on a set ratio (e.g. for every 10 minutes, you earn 5 of coins).
 - When the user buys an item, it’s appended to a global objects array. This array, and the variable that contains the amount of coins the user possesses, is stored in UserDefaults. Because these values doesn’t require much data, UserDefaults is suitable to make sure the data is persistent when the app is killed. Don’t want innocent plants to get lost in some abyss.
 
-{% highlight swift %}
+```swift
 	let defaults = UserDefaults.standard
 
 	let currentCoinAmt = defaults.integer(forKey: "totalCoins") ?? 0
@@ -120,7 +120,7 @@ Honestly, I can't really explain the actual process and the obstacles I encounte
 	if currentInv != nil {
 		boughtItems = currentInv as! [String]
 	}
-{% endhighlight %}
+```
 
 - When the app is launched again, it sets the user’s inventory equal to what’s stored in UserDefaults. It initializes only the plants that were appended to the objects array (when they're bought) because, well, that’s all that should be available to the user. 
 
@@ -143,7 +143,7 @@ What would I have improved? Pretty much everything.
 <small>Besides my little plants (I love my plants alright). And probably most of the shop menu graphics (kind of proud of that too). </small>
 
 
-~~I could sit here and just completely obliterate my app, but let's-~~
+~~I could sit here and just completely obliterate my app, but let's not do that.~~
 - The art, even though that’s the **least** of concerns  
 - Bugs like how the timer becomes confused after it surpasses an hour
 - Adding inventory functionality where you can store plants (I originally had this but I couldn’t get it to work properly)
