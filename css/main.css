@@ -412,4 +412,5 @@ pre code {
   background-color: #eeeeee;
   border: 1px solid #999;
   padding: 15px;
+	word-wrap: break-word;
 }
