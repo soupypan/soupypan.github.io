@@ -407,6 +407,9 @@ li a:hover {
   font-weight: 400;
   color: white;
 }
+pre {
+  word-wrap: break-word;
+}
 code {
   color: pink;
 }
