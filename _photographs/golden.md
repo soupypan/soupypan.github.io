@@ -9,3 +9,9 @@ images:
   - image_path: /assets/photography/golden_2.png
 ---
 
+
+
+
+
+is this that deep? no
+i just miss staring at the sunset aaaaaaa ;(
